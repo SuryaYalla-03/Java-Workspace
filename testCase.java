@@ -1,7 +1,7 @@
 package com.testcases;
 import java.util.Scanner;
 
-public class Tester {
+public class testCase {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 	System.out.print("a =");
