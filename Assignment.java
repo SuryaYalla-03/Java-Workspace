@@ -1,10 +1,10 @@
-import java.util.Scanner;
-public class Method {
+import java.util.*;
+public class Assignment {
 
 	public static void main(String args[]) {
-    Scanner sc = new Scanner(System.in);
 		Calculator calculator = new Calculator();
-    System.out.print("Enter the number: ");
+		Scanner sc = new Scanner(System.in);
+		System.out.print("Enter the number: ");
 		calculator.num = sc.nextInt();
 		int result = sumOfDigits();
 		System.out.println(result);
@@ -12,8 +12,8 @@ public class Method {
 }
 
 class Calculator {
+public int num;
 
-int num;
 public int sumOfDigits(){
     int number = num;
     int sum = 0;
